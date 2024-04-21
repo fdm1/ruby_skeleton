@@ -1,0 +1,4 @@
+#! /bin/sh
+
+pry -e "load 'boot.rb'"
+

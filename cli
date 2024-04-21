@@ -1,0 +1,7 @@
+#! /Users/frankmassi/.rvm/rubies/ruby-3.0.2/bin/ruby
+
+require './boot'
+
+inputs = ARGV
+
+puts Dummy.new.add(inputs[0].to_i, inputs[1].to_i)
